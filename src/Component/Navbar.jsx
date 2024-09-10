@@ -15,7 +15,7 @@ const Navbar = () => {
         <header> 
             <div className='flex items-center justify-between bg-white max-w-[1400px] mx-auto py-3 px-16 shadow-lg'>
                 <div className='flex items-center'>
-                    <Link to='/' className='text-[#333] no-underline'>
+                    <Link to='/home' className='text-[#333] no-underline'>
                         <h1>Zeke Workout</h1>
                     </Link>
                 </div>
