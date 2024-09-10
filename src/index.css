@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #f1f1f1;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* span{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 60px;
+  border-radius: 50%;
+  color: #333;
+} */
