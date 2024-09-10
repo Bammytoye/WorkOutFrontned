@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAuthContext } from "./UseAuthContext";
+import BaseUrl from "../BaseUrl";
 
 export const UseSignUp = () => {
     const [error, setError] = useState(null);
@@ -10,7 +11,7 @@ export const UseSignUp = () => {
         setIsLoading(true); // Corrected the spelling of isLoading
         setError(null);
 
-        const response = await fetch('http://localhost:5010/api/user/signup', {
+        const response = await fetch(BaseUrl +'/signup', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email: email, password: password})
